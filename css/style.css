@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 20px;
+}
+
+h2 {
+  font-size: 2.2rem;
+}
+
+h3 {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 1.5rem;
+  }
+}
+.custom {
+  background-color: white;
+}
+
+.logo {
+  width: 70px;
+  vertical-align: middle;
+}
+
+.navbar-nav .nav-link:hover {
+  background-color: #f0f0f0 !important;
+  color: rgb(32, 4, 243) !important;
+}
+
+@media (min-width: 991px) {
+  .accordion-item {
+    display: none;
+  }
+}
+.prod {
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  margin-bottom: 20px;
+  /* Agrega el estilo de sombra deseado */
+}
+
+.box1 {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.subscription-container-wrapper {
+  height: 200px;
+  /* Ajusta la altura del contenedor de suscripcion */
+}
+
+.customFo {
+  margin-bottom: 0px;
+}
+
+.custom-icon-color {
+  color: black;
+}
+
+.max-img-width {
+  max-width: 70%;
+}
+
+.divider {
+  border-top: 1px solid #ccc;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+  .custom-responsive {
+    display: none;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

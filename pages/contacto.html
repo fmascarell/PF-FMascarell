@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="">
+    <title>Distribuidora Rico</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="row custom">
+            <!--<div class="col-10 col-md-8 col-lg-1 d-flex align-items-center order-lg-first">
+                <a href="#"><img class="logo" src="./images/logo.png" alt="Logo Rico"></a>
+            </div>-->
+            <div class="col d-flex w-100">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light custom w-100">
+                    <div class="container-fluid w-100 custom">
+                        <a class="navbar-brand" href="../index.html">
+                            <img class="logo" src="../images/logo.png" alt="Logo Rico">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../index.html">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/productos.html">Productos</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                                </li>
+                            </ul>
+                            <!--  <div class="collapse navbar-collapse" id="navbarSupportedContent">-->
+                            <ul class="navbar-nav justify-content-end ms-auto">
+                                <li class="nav-item d-flex">
+                                    <input class="form-control me-2" type="search" placeholder="Search"
+                                        aria-label="Search">
+                                    <a href="#" class="nav-link search-icon"><i class="fas fa-search"></i></a>
+                                </li>
+                                <!-- <li class="nav-item">
+                                        <a href="#" class="nav-link cart-icon"><i class="fas fa-shopping-cart"></i></a>
+                                    </li>-->
+                                <li class="nav-item ml-auto">
+                                    <div><a class="nav-link" href="../pages/ingresa.html">Ingresa</a></div>
+                                </li>
+                            </ul>
+                            <!-- </div>-->
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            <div class="jumbotron bg-primary d-flex align-items-center">
+                <p class="text-white text-center m-3">Home / Contacto</p>
+            </div>
+        </header>
+        <main class="row mb-4">
+            <div class="container mt-4">
+                <h2 class="text-left mb-4">Contacto</h2>
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <div class="prod text-center">
+                            <a href="#">
+                                <img class="img-fluid" src="../images/contacto.jpg" alt="foto fábrica">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                        <form>
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" placeholder="Ingrese su nombre">
+                            </div>
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Email</label>
+                                <input type="email" class="form-control" id="email" placeholder="Ingrese su email">
+                            </div>
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono</label>
+                                <input type="telefono" class="form-control" id="telefono" placeholder="Ingrese su teléfono">
+                            </div>
+                            <div class="mb-3">
+                                <label for="asunto" class="form-label">Asunto</label>
+                                <select class="form-select" id="asunto">
+                                    <option value="">Seleccione un asunto</option>
+                                    <option value="consulta">Consulta</option>
+                                    <option value="sugerencia">Sugerencia</option>
+                                    <option value="reclamo">Reclamo</option>
+                                </select>
+                            </div>
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="2"
+                                    placeholder="Ingrese su mensaje"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Enviar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <div class="divider"></div>
+        <footer class="row">
+            <div class="container custom-footer">
+                <div class="row custom-footer">
+                    <div class="col-md-3 col-sm-6 custom-responsive justify-content-center">
+                        <div class="logo2 d-flex justify-content-center align-items-center">
+                            <a href="#">
+                                <img class="logo w-100 max-img-width" src="../images/logo.png" alt="Logo Rico">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 custom-responsive">
+                        <div class="footerHorarios">
+                            <div class="d-flex align-items-center">
+                                <a class="schedule-icon"><i class="fas fa-clock custom-icon-color"></i></a>
+                                <h3 class="customFo ms-2">Horarios</h3>
+                            </div>
+                            <p class="mb-0">Lunes a viernes 8 a 18 hrs</p>
+                            <p class="mb-0">Sábados 8 a 14 hrs</p>
+                            <p class="mb-0">Domingos sin atención a público</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 custom-responsive">
+                        <div class="footerDireccion">
+                            <div class="d-flex align-items-center">
+                                <a href="https://www.google.com/maps/d/embed?mid=1AM8vy-HL-qy8hh73kJYlCcEmCaw&ehbc=2E312F"
+                                    target="_blank" class="address-icon"><i
+                                        class="fas fa-map-marker-alt custom-icon-color"></i></a>
+                                <h3 class="customFo ms-2 font-weight-bold">Dirección</h3>
+                            </div>
+                            <p class="mb-0">Avenida pepito 999</p>
+                            <p class="mb-0">San Joaquin</p>
+                            <p class="mb-0">Santiago</p>
+                            <p class="mb-0">Región metropolitana</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 custom-responsive">
+                        <div class="footerContacto">
+                            <div class="d-flex align-items-center">
+                                <a class="phone-icon"><i class="fas fa-phone custom-icon-color"></i></a>
+                                <h3 class="customFo ms-2">Contáctanos</h3>
+                            </div>
+                            <p class="mb-0">+569 9 7420090</p>
+                            <p class="mb-0">+569 7 5120240</p>
+                            <p class="mb-0">+569 9 9903545</p>
+                            <p class="mb-0">distribuidorarico@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row mt-0">
+                    <div class="col-12 text-center">
+                        <div class="accordion" id="accordionFooter">
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingHorarios">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseHorarios" aria-expanded="false"
+                                        aria-controls="collapseHorarios">
+                                        Horarios
+                                    </button>
+                                </h2>
+                                <div id="collapseHorarios" class="accordion-collapse collapse"
+                                    aria-labelledby="headingHorarios" data-bs-parent="#accordionFooter">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">Lunes a viernes 8 a 18 hrs</p>
+                                        <p class="mb-0">Sábados 8 a 14 hrs</p>
+                                        <p class="mb-0">Domingos sin atención a público</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingDireccion">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseDireccion" aria-expanded="false"
+                                        aria-controls="collapseDireccion">
+                                        Dirección
+                                    </button>
+                                </h2>
+                                <div id="collapseDireccion" class="accordion-collapse collapse"
+                                    aria-labelledby="headingDireccion" data-bs-parent="#accordionFooter">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">Avenida pepito 999</p>
+                                        <p class="mb-0">San Joaquin</p>
+                                        <p class="mb-0">Santiago</p>
+                                        <p class="mb-0">Región metropolitana</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingContacto">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#collapseContacto" aria-expanded="false"
+                                        aria-controls="collapseContacto">
+                                        Contáctanos
+                                    </button>
+                                </h2>
+                                <div id="collapseContacto" class="accordion-collapse collapse"
+                                    aria-labelledby="headingContacto" data-bs-parent="#accordionFooter">
+                                    <div class="accordion-body">
+                                        <p class="mb-0">+569 9 7420090</p>
+                                        <p class="mb-0">+569 7 5120240</p>
+                                        <p class="mb-0">+569 9 9903545</p>
+                                        <p class="mb-0">distribuidorarico@gmail.com</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="divider"></div>
+            <div class="container">
+                <div class="row mt-0">
+                    <div class="col-12 text-center">
+                        <div class="copyright">
+                            <p class="mb-4">© 2023 Todos los derechos reservados</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+        integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

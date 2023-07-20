@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.logo {
+    width: 70px;
+    vertical-align: middle;
+}
+
+.custom {
+    background-color: white;
+}
+
+.prod {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+    /* Agrega el estilo de sombra deseado */
+}
+
+.box1 {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.customFo {
+    margin-bottom: 0px;
+}
+
+.custom-icon-color {
+    color: black;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+@media (max-width: 991px) {
+    .custom-responsive {
+        display: none;
+    }
+}
+
+@media (min-width: 991px) {
+    .accordion-item {
+        display: none;
+    }
+}
+
+/*.custom-footer{
+    background-color: #ffefd3;
+}*/
