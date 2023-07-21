@@ -19,3 +19,27 @@
 .custom-pagination {
     background-color: #2f5b1f !important;
 }
+
+.pagination {
+    .page-item {
+        a.page-link {
+            background-color: #FFFFFF;
+            color: #152b1d;
+        }
+    }
+    // Cambia el color de fondo del item activo del paginador
+    .page-item.active {
+        a.page-link {
+            background-color: #2f5b1f;
+            color: #FFFFFF;
+            border-color: #152b1d;
+        }
+    }
+// Cambia el color de fondo del botón "Previous" del paginador
+    .page-item.disabled {
+        a.page-link {
+            background-color: #CCCCCC;
+            color: #393939;
+        }
+    }
+}

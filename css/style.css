@@ -35,20 +35,10 @@ h3 {
   border: 0px;
 }
 
-.pagination .page-item a.page-link {
-  background-color: #FFFFFF; /* Cambia el color aquí según tu preferencia */
-  color: #152b1d; /* Cambia el color del texto aquí según tu preferencia */
-}
-
-.pagination .page-item.active a.page-link {
-  background-color: #2f5b1f; /* Cambia el color aquí según tu preferencia */
-  color: #FFFFFF; /* Cambia el color del texto aquí según tu preferencia */
-  border-color: #152b1d;
-}
-
-.pagination .page-item.disabled a.page-link {
-  background-color: #CCCCCC; /* Cambia el color aquí según tu preferencia */
-  color: #393939; /* Cambia el color del texto aquí según tu preferencia */
+.nav-link.active {
+  color: #FF0000; /* Cambia el color aquí según tu preferencia */
+  background-color: #FFFF00; /* Cambia el color de fondo aquí según tu preferencia */
+  /* Puedes agregar otros estilos adicionales para el botón activo si lo deseas */
 }
 
 .custom {
@@ -93,6 +83,20 @@ h3 {
 
 .custom-pagination {
   background-color: #2f5b1f !important;
+}
+
+.pagination .page-item a.page-link {
+  background-color: #FFFFFF;
+  color: #152b1d;
+}
+.pagination .page-item.active a.page-link {
+  background-color: #2f5b1f;
+  color: #FFFFFF;
+  border-color: #152b1d;
+}
+.pagination .page-item.disabled a.page-link {
+  background-color: #CCCCCC;
+  color: #393939;
 }
 
 .customFo {
