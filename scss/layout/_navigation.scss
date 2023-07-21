@@ -1,3 +1,5 @@
+@import '../abstracts/variables';
+
 .custom {
     background-color: white;
 }
@@ -11,7 +13,12 @@
     .nav-link {
         &:hover {
             background-color: #f0f0f0 !important;
-            color: rgb(32, 4, 243) !important;
+            color:  #2f5b1f !important;
         }
     }
+}
+
+.custom-color-jumbotron {
+    /*background-color: #078478 !important;*/
+    background-image: linear-gradient(5deg, #2f5b1f, #52cc70)!important;
 }

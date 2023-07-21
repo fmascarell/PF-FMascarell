@@ -25,4 +25,31 @@ h3 {
     h1 {
         font-size: 1.5rem;
     }
+
+    h2 {
+        font-size: 1.2rem;
+    }
 }
+
+.custom-buttom {
+    background-color:  #2f5b1f !important;
+    border: 0px;
+}
+
+.pagination .page-item a.page-link {
+    background-color: #FFFFFF; /* Cambia el color aquí según tu preferencia */
+    color: #152b1d; /* Cambia el color del texto aquí según tu preferencia */
+  }
+  
+  // Cambia el color de fondo del item activo del paginador
+  .pagination .page-item.active a.page-link {
+    background-color: #2f5b1f; /* Cambia el color aquí según tu preferencia */
+    color: #FFFFFF; /* Cambia el color del texto aquí según tu preferencia */
+    border-color: #152b1d;
+  }
+  
+  // Cambia el color de fondo del botón "Previous" del paginador
+  .pagination .page-item.disabled a.page-link {
+    background-color: #CCCCCC; /* Cambia el color aquí según tu preferencia */
+    color: #393939; /* Cambia el color del texto aquí según tu preferencia */
+  }

@@ -1,3 +1,4 @@
+@charset "UTF-8";
 * {
   margin: 0;
   padding: 0;
@@ -25,7 +26,31 @@ h3 {
   h1 {
     font-size: 1.5rem;
   }
+  h2 {
+    font-size: 1.2rem;
+  }
 }
+.custom-buttom {
+  background-color: #2f5b1f !important;
+  border: 0px;
+}
+
+.pagination .page-item a.page-link {
+  background-color: #FFFFFF; /* Cambia el color aquí según tu preferencia */
+  color: #152b1d; /* Cambia el color del texto aquí según tu preferencia */
+}
+
+.pagination .page-item.active a.page-link {
+  background-color: #2f5b1f; /* Cambia el color aquí según tu preferencia */
+  color: #FFFFFF; /* Cambia el color del texto aquí según tu preferencia */
+  border-color: #152b1d;
+}
+
+.pagination .page-item.disabled a.page-link {
+  background-color: #CCCCCC; /* Cambia el color aquí según tu preferencia */
+  color: #393939; /* Cambia el color del texto aquí según tu preferencia */
+}
+
 .custom {
   background-color: white;
 }
@@ -37,7 +62,12 @@ h3 {
 
 .navbar-nav .nav-link:hover {
   background-color: #f0f0f0 !important;
-  color: rgb(32, 4, 243) !important;
+  color: #2f5b1f !important;
+}
+
+.custom-color-jumbotron {
+  /*background-color: #078478 !important;*/
+  background-image: linear-gradient(5deg, #2f5b1f, #52cc70) !important;
 }
 
 @media (min-width: 991px) {
@@ -59,6 +89,10 @@ h3 {
 .subscription-container-wrapper {
   height: 200px;
   /* Ajusta la altura del contenedor de suscripcion */
+}
+
+.custom-pagination {
+  background-color: #2f5b1f !important;
 }
 
 .customFo {
